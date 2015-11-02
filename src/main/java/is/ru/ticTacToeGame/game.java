@@ -7,7 +7,7 @@ public class Game {
     public Player Player2;
     public TicTacToe theGame;
     boolean whosTurn; //True for Player1, false for Player2.
-    
+    //Start
     Game(){
         Player1 = new Player("X");
         Player2 = new Player("O");
