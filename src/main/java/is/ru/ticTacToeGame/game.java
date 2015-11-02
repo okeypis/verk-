@@ -12,7 +12,7 @@ public class Game {
         Player1 = new Player("X");
         Player2 = new Player("O");
         theGame = new TicTacToe();
-        whosTurn=true;
+        whosTurn = true;
     }
 
     private boolean inputOK(int number){
