@@ -1,0 +1,8 @@
+#!/bin/bash
+#on linux
+#java -cp "classes/:lib/junit-4.11.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore is.ru.ticTacToeGame.titTacToeTest 
+#java -cp "classes/:lib/junit-4.11.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore is.ru.ticTacToeGame.playerTest
+#java -cp "classes/:lib/junit-4.11.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore is.ru.ticTacToeGame.gameTest
+java -cp "classes/:lib/junit-4.11.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore is.ru.ticTacToeGame.mainTest 
+#on windows
+#java -cp "classes/;lib/junit-4.11.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore is.ru.ticTacToeGame.CalculatorTest 
