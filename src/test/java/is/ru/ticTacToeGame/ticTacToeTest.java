@@ -102,18 +102,19 @@ public class TicTacToeTest{
 
     } //3,5,7
 
+    //testclear
     @Test
     public void testClearAll(){
-    TicTacToe game = new TicTacToe();
-    game.move(1, "X");
-    game.move(3, "O");
-    game.move(5, "X");  
-    game.clearAll();
-    for (int i = 0; i < 3; i++){
-        for(int j = 0; j < 3; j++){
-            assertEquals(" ",game.board[i][j]);
+        TicTacToe game = new TicTacToe();
+        game.move(1, "X");
+        game.move(3, "O");
+        game.move(5, "X");  
+        game.clearAll();
+        for (int i = 0; i < 3; i++){
+            for(int j = 0; j < 3; j++){
+                assertEquals(" ",game.board[i][j]);
+            }
         }
-    }
     }
 
     @Test
