@@ -58,7 +58,12 @@ public class TicTacToeTest{
 
 	@Test
 	public void testIsSeatTaken(){
-		
+		public void testIsSeatTaken(){
+		TicTacToe game = new TicTacToe();
+		game.move(1, "X");
+		assertTrue(game.isSeatTaken(1));
+		assertFalse(game.isSeatTaken(2));
+	}
 	}	
 
 	
