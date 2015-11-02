@@ -14,6 +14,13 @@ public class TicTacToeTest{
 
 	@Test
 	public void testConstructor(){
+		TicTacToe game = new TicTacToe();
+		assertTrue(game.whosTurn);
+		for (int i = 0; i < 3; i++){
+			for(int j = 0; j < 3; j++){
+				assertEquals(" ",game.board[i][j]);
+			}
+		}
 
 	}
 
