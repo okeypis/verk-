@@ -46,6 +46,19 @@ public class TicTacToe{
     	else if (board[2][0] == "O" && board[1][1] == "O" && board[0][2] == "O") return true;
     	else return false;
 	}
+	
+		public Boolean isFull(){
+		 //check if board is full
+			for(int i = 0; i <3; i++){
+				for(int j = 0; j < 3; j++){
+					if(board [i][j] == " "){
+						return false;
+					}
+
+				}
+			}
+			return true;
+	}
 
 }
 		
