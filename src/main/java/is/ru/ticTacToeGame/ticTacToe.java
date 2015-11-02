@@ -67,6 +67,45 @@ public class TicTacToe{
 		System.out.println("-----");
 		System.out.println(board[2][0] + "|" + board[2][1] + "|" + board[2][2]);
 	}
+	
+	public void move(int number, String xOrO){
+		if(number==1){
+				board[0][0]=xOrO;
+			}
+
+			else if(number==2){
+				board[0][1]=xOrO;
+			}
+
+			else if(number==3){
+				board[0][2]=xOrO;
+			}
+
+			else if(number==4){
+				board[1][0]=xOrO;
+			}
+
+			else if(number==5){
+				board[1][1]=xOrO;
+			}
+
+			else if(number==6){
+				board[1][2]=xOrO;
+			}
+
+			else if(number==7){
+				board[2][0]=xOrO;
+			}
+
+			else if(number==8){
+				board[2][1]=xOrO;
+			}
+
+			else if(number==9){
+				board[2][2]=xOrO;
+			}
+			whosTurn = !whosTurn;
+	}
 
 }
 		
