@@ -41,7 +41,7 @@ svo þarf að opna skrána með því að nota “nano id_rsa.pub” .
 
 Skref 5.
 Þá þarf að afrita repository yfir í tölvuna með því að nota ssh forritið og eftirfarandi skipun:
-“git clone git@github.com: (*** )/ticTacToeGame.git “.
+“https://github.com/okeypis/verk-.git"
 
 
 Skref 6.

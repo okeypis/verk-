@@ -18,10 +18,7 @@ Sigurjón Birgisson sigurjonb11@ru.is
 
 
 
-
-
-
-Kennari: Hannes Pétursson
+Kennari: Hannes Pétursson
 
 Til að búa til verkefnið þarf að fylgja eftirfarandi skrefum:
 
@@ -46,7 +43,7 @@ svo þarf að opna skrána með því að nota “nano id_rsa.pub” .
 
 Skref 5.
 Þá þarf að afrita repository yfir í tölvuna með því að nota ssh forritið og eftirfarandi skipun:
-“git clone git@github.com:(***)/ticTacToeGame.git “. 
+“git clone https://github.com/okeypis/verk-.git “. 
 
 Skref 6.
 Gerðu breytingar á verkefninu. 
