@@ -15,7 +15,7 @@ public class Game {
         whosTurn = true;
     }
 
-    private boolean inputOK(int number){
+    public boolean inputOK(int number){
         if(number>9 || number<1){
             return false;
         }
@@ -68,7 +68,7 @@ public class Game {
                     
                 }
             }
-            theGame.print();
+            //theGame.print();
         } 
     }
 
