@@ -21,7 +21,7 @@ public class GameTest{
 
 	@Test
 	public void testPlayGame(){
-		
+	}
 
 
 }
