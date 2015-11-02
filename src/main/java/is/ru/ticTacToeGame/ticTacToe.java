@@ -106,6 +106,64 @@ public class TicTacToe{
 			}
 			whosTurn = !whosTurn;
 	}
+	
+	public boolean isSeatTaken(int number){
+		if(number==1){
+			if(board[0][0] == "X" || board[0][0] == "O"){
+				return true;
+			}
+		}
+
+		else if(number==2){
+			if(board[0][1] == "X" || board[0][1] == "O"){
+				return true;
+			}
+		}
+
+		else if(number==3){
+			if(board[0][2] == "X" || board[0][2] == "O"){
+				return true;
+			}
+		}
+
+		else if(number==4){
+			if(board[1][0] == "X" || board[1][0] == "O"){
+				return true;
+			}
+		}
+
+		else if(number==5){
+			if(board[1][1] == "X" || board[1][1] == "O"){
+				return true;
+			}
+		}
+
+		else if(number==6){
+			if(board[1][2] == "X" || board[1][2] == "O"){
+				return true;
+			}
+		}
+
+		else if(number==7){
+			if(board[2][0] == "X" || board[2][0] == "O"){
+				return true;
+			}
+		}
+
+		else if(number==8){
+			if(board[2][1] == "X" || board[2][1] == "O"){
+				return true;
+			}
+		}
+
+		else if(number==9){
+			if(board[2][2] == "X" || board[2][2] == "O"){
+				return true;
+			}
+		}
+			return false;
+		
+	}
 
 }
 		
