@@ -10,8 +10,8 @@ jar{
 }
 
 sourceSets {
-	 selenium
-	seleniumXvfb
+	// selenium
+	//seleniumXvfb
 }
 
 // In this section you declare where to find the dependencies of your project
