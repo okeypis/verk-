@@ -45,13 +45,13 @@ Skref 5.
 
 
 Skref 6.
-Nú nærðu í Gradle 1.4 og sérð til þess að það keyri með java útgáfu 1.7.0_79. Þetta er gert með ssh á eftirfarandi hátt:
+Nú nærðu í Gradle 1.4 og sérð til þess að það keyri með java útgáfu 1.8. Þetta er gert með ssh á eftirfarandi hátt:
 6.1 “sudo apt-get install software-properties-common”
 6.2 “sudo add-apt-repository ppa: cwchien/gradle”
 6.3 “sudo apt-get install gradle”
 Nú ætti Gradle 1.4  að vera uppsett, hægt er að staðfesta það með því að slá inn “gradle --version”
 
 Skref 7. 
-Nú verður þú að sjá til þess að verið sé að nota java 1.7.0_79. Ef þú slærð inn “java –version” getur þú séð hvaða útgáfu er verið að nota. Ef það er ekki java 1.7.0_79, farðu á eftirfarandi síðu til að sjá hvernig það er sett upp:
+Nú verður þú að sjá til þess að verið sé að nota java 1.8. Ef þú slærð inn “java –version” getur þú séð hvaða útgáfu er verið að nota. Ef það er ekki java 1.8, farðu á eftirfarandi síðu til að sjá hvernig það er sett upp:
 http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-
 521261.html
