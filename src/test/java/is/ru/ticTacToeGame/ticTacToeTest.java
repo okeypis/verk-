@@ -23,7 +23,6 @@ public class ticTacToeTest{
 
     @Test
     public void testMove(){
-        System.out.println("Test Move");
         TicTacToe game = new TicTacToe();
         game.move(3, "X");
         assertEquals("X",game.board[0][2]);
@@ -37,7 +36,6 @@ public class ticTacToeTest{
 
     @Test
     public void testisFull(){
-        System.out.println("Test Full");
         TicTacToe game = new TicTacToe();
         assertFalse(game.isFull());
         game.move(1, "O");
@@ -55,7 +53,6 @@ public class ticTacToeTest{
 
     @Test
     public void testHasWon(){
-        System.out.println("Test Won");
         TicTacToe game1 = new TicTacToe();
         assertFalse(game1.hasWon());
         game1.move(1, "X");
@@ -107,7 +104,6 @@ public class ticTacToeTest{
     //testclear
     @Test
     public void testClearAll(){
-        System.out.println("Test Clear");
         TicTacToe game = new TicTacToe();
         game.move(1, "X");
         game.move(3, "O");
@@ -122,7 +118,6 @@ public class ticTacToeTest{
 
     @Test
     public void testIsSeatTaken(){
-        System.out.println("Test Seat Taken");
         TicTacToe game = new TicTacToe();
         game.move(1, "X");
         assertTrue(game.isSeatTaken(1));
