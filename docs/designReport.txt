@@ -1,0 +1,39 @@
+Síðannarverkefni 
+Design Report
+ 
+T-303-HUGB Hugbúnaðarfræði 
+
+30. Nóvember, 2015
+
+
+Nemendur: 
+Filippa Guðmundsdóttir filippa13@ru.is 
+Helena Júlíusdóttir helenaj14@ru.is
+Kristinn Jóhannsson kiddinn95@gmail.com
+Nóa Sólrún Guðjónsdóttir noagudjons@gmail.com
+Róbert Ingi Jónsson robert12@ru.is 
+Sigurjón Birgisson sigurjonb11@ru.is 
+
+
+
+Kennari: Hannes Pétursson
+
+
+Inngangur:
+ 
+Verkefnið var að hanna lítinn leik sem heitir Tic Tac Toe. Þetta er einfaldur leikur þar sem tveir leikmenn 
+spila á móti hvor öðrum. Leikmaður getur verið X eða O og er leikborðið 9 jafn stórir gluggar sem eru fylltir 
+með tákni leikmanns. Hægt er að vinna leikinn með því að fá þrjú tákn í röð á leikborðinu. Leikmenn sjá texta 
+á skjá sem veitir upplýsingar um stöðu leiksins, það er að segja hvort það hafi orðið jafntefli eða hver hafi 
+unnið.
+ 
+ 
+ 
+Hönnun:
+Meðlimum hópsins verður bætt við GitHub. Hópurinn notar Facebook sem samskiptamáta. Vinna verður líka gerð í 
+Háskólanum í Reykjavík. Verkefnið verður skrifað í Java. Markmið okkar er að hanna leikinn sem gluggaform til 
+að birta notanda upplýsingar. Ef allt gengur upp þá munum við nota Heroku til að setja leikinn á internetið. 
+Einnig ætlum við að reyna að nota Travis til að fylgjast með keyrslu á leiknum. Gangi öll okkar markmið eftir 
+þá ættum við að geta verið með stöðugar reglubundnar útgáfur.
+ 
+

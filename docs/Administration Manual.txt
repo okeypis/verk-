@@ -1,0 +1,75 @@
+Síðannarverkefni 
+Administration Manual
+ 
+T-303-HUGB Hugbúnaðarfræði 
+
+30. Nóvember, 2015
+
+
+Nemendur: 
+Filippa Guðmundsdóttir filippa13@ru.is 
+Helena Júlíusdóttir helenaj14@ru.is
+Kristinn Jóhannsson kiddinn95@gmail.com
+Nóa Sólrún Guðjónsdóttir noagudjons@gmail.com
+Róbert Ingi Jónsson robert12@ru.is 
+Sigurjón Birgisson sigurjonb11@ru.is 
+
+
+
+
+
+
+
+
+Kennari: Hannes Pétursson
+
+Til að búa til verkefnið þarf að fylgja eftirfarandi skrefum:
+
+Ef þú ert með ssh forrit og github aðgang getur þú farið beint í skref númer 3. 
+
+
+Skref 1.
+Náðu í ssh forrit að eigin vali t.d. http://www.putty.org/ .
+
+Skref 2. 
+Skráðu þig inn á Github á https://github.com/ .
+
+Skref 3.
+Nú þarf að bæta við ssh lykli. Opnaðu ssh forritið og sláðu inn:
+“ssh -keygen -t rsa -C sláðu inn netfangið þitt hér”
+Eftir að þú ýtir á Enter þá þarf að slá inn leyniorð að eigin vali. 
+
+Skref 4.
+Nú þarf að bæta ssh lyklinum á Github. Farðu á Github og findu “add ssh key”.
+Til að finna ssh lykil þarf að fara á “cd ~/.ssh”
+svo þarf að opna skrána með því að nota “nano id_rsa.pub” .
+
+Skref 5.
+Þá þarf að afrita repository yfir í tölvuna með því að nota ssh forritið og eftirfarandi skipun:
+“git clone git@github.com:(***)/ticTacToeGame.git “. 
+
+Skref 6.
+Gerðu breytingar á verkefninu. 
+
+Skref 7.
+Til að setja breytingar á verkefninu inn á Github þarf að slá inn eftirfarandi skipanir.
+7.1 „git pull“ // (fá nýjustu útgáfu af verkefninu til að forðast árekstra)
+7.2 „git add “nafn á breyttu skránni“” // (bæta við þeim skrám sem hefur verið breytt)
+7.3 „git commit –m “athugasemd hér”“ // (bætir við breytingum sem voru gerðar)
+7.4 „git push“ // (ýtir breytingum yfir á Github)
+7.5 „git push heroku master“ // (ýtir breytingum yfir á Heroku miðlara) 
+
+Skref 8.
+Til að skoða núverandi stöðu á verkefninu er hægt að fara inn á: (https:ticTacToeGame)
+
+Skref 9.
+Til að skoða og spila lokaútgáfu er hægt að fara inn á (https://tictactoe.com/ ).  
+
+
+
+
+
+
+
+
+
