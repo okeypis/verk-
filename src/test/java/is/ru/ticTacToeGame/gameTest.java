@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 import org.junit.Test;
 
-public class GameTest{
+public class gameTest{
     public static void main(String args[]) {
-        org.junit.runner.JUnitCore.main("is.ru.ticTacToeGame.GameTest");
+        org.junit.runner.JUnitCore.main("is.ru.ticTacToeGame.gameTest");
     }
 
     @Test

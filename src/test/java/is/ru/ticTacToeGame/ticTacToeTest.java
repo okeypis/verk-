@@ -6,9 +6,9 @@ import static org.junit.Assert.assertFalse;
 
 import org.junit.Test;
 
-public class TicTacToeTest{
+public class ticTacToeTest{
     public static void main(String args[]) {
-        org.junit.runner.JUnitCore.main("is.ru.ticTacToeGame.TicTacToeTest");
+        org.junit.runner.JUnitCore.main("is.ru.ticTacToeGame.ticTacToeTest");
     }
 
     @Test

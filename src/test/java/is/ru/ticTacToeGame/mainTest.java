@@ -6,7 +6,7 @@ import static org.junit.Assert.assertFalse;
 
 import org.junit.Test;
 
-public class MainTest{
+public class mainTest{
     public static void main(String args[]) {
         org.junit.runner.JUnitCore.main("is.ru.ticTacToeGame.mainTest");
     }
