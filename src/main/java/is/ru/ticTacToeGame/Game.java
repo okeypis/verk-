@@ -31,7 +31,9 @@ public class Game {
         while(!theGame.hasWon() && !theGame.isFull()){
             int number;
             Scanner in = new Scanner(System.in);
-            //while (!in.hasNext) {}
+            while (!in.hasNext) {
+                number = 0;
+            }
             number = in.nextInt();
             
             if(inputOK(number) && !theGame.isSeatTaken(number)){
