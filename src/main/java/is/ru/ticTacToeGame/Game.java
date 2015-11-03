@@ -31,7 +31,7 @@ public class Game {
         while(!theGame.hasWon() && !theGame.isFull()){
             int number;
             Scanner in = new Scanner(System.in);
-            bool hasNext = in.hasNext();
+            boolean hasNext = in.hasNext();
             while (!hasNext) { hasNext = in.hasNext(); }
             number = in.nextInt();
             
