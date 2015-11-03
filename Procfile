@@ -1,1 +1,1 @@
-web: lib/tttoe.jar
+web: java -jar lib/tttoe.jar
