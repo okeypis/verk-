@@ -31,10 +31,10 @@ public class Game {
         while(!theGame.hasWon() && !theGame.isFull()){
             int number;
             Scanner in = new Scanner(System.in);
-            /*if (!in.hasNext) {
-                number = 0;
-            }*/
-            number = in.nextInt();
+            if (in.hasNextInt()) {
+                number = in.nextInt();
+            }
+            else { number = 0; }
             
             if(inputOK(number) && !theGame.isSeatTaken(number)){
                 
