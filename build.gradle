@@ -36,4 +36,4 @@ dependencies {
 }
 
 
-task stage { dependsOn installApp }
+//task stage { dependsOn installApp }
