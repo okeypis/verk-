@@ -1,1 +1,1 @@
-web: lib/tttoe.jar
+web: bin/build_and_test
