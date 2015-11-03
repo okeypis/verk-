@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd classes
-jar cmf MANIFEST.txt ../TicTacToe.jar is/ru/ticTacToeGame/Main.class is/ru/ticTacToeGame/Game.class is/ru/ticTacToeGame/Player.class is/ru/ticTacToeGame/TicTacToe.class
+jar cmf MANIFEST.txt ../../TicTacToe.jar is/ru/ticTacToeGame/Main.class is/ru/ticTacToeGame/Game.class is/ru/ticTacToeGame/Player.class is/ru/ticTacToeGame/TicTacToe.class
 cd ..
