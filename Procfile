@@ -1,1 +1,1 @@
-web: bin/build_and_test
+web: lib/tttoe
